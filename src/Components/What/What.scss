@@ -1,0 +1,129 @@
+.what .container {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what__info {
+  width: 523px;
+}
+
+.what__text {
+  margin: 0;
+  padding: 0;
+  color: rgb(253, 105, 90);
+  font-family: "Mulish";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+
+.what__heading {
+  margin: 0;
+  padding: 0;
+  color: rgb(61, 61, 63);
+  font-family: "Mulish";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 31px;
+}
+
+.what__p {
+  color: rgb(81, 81, 81);
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.what__btn {
+  border-radius: 50px;
+  background: rgb(253, 105, 90);
+  padding: 11px 24px;
+  color: rgb(255, 255, 255);
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+
+  &:hover {
+    transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(
+      to left top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+    );
+  }
+}
+
+.what__info1 {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.what__seo {
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px 0px rgba(44, 22, 84, 0.01);
+  background: rgb(244, 244, 244);
+  text-align: center;
+  padding-top: 32px;
+  width: 268.93px;
+  height: 268.93px;
+}
+
+.info__title {
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+  color: rgb(55, 56, 61);
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.info__text {
+  padding: 0;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  color: rgb(116, 116, 116);
+  font-family: "DM Sans";
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.seo__link {
+  color: rgb(61, 61, 63);
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-decoration-line: underline;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    text-decoration: overline;
+    color: rgb(253, 105, 90);
+  }
+}
