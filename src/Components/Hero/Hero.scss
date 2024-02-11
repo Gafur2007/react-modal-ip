@@ -1,0 +1,131 @@
+.hero .container {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__img {
+  z-index: -1;
+}
+
+.hero__heading {
+  font-family: "Mulish";
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 94px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 53px;
+}
+
+.hero__span {
+  color: rgb(253, 105, 90);
+}
+
+.hero__text {
+  opacity: 0.75;
+  margin: 0;
+  padding: 0;
+  width: 464px;
+  word-spacing: 5px;
+  color: rgb(61, 61, 63);
+  font-family: "Manrope";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-bottom: 64px;
+}
+
+.hero__flex {
+  display: flex;
+  gap: 38px;
+}
+
+.hero__button {
+  border: none;
+  border-radius: 50px;
+  background: rgb(253, 105, 90);
+  padding: 15px 31px;
+  color: rgb(255, 255, 255);
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.hero__button1 {
+  color: rgb(253, 105, 90);
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  background: none;
+}
+
+.hero__btn__img {
+  background: none;
+}
+///////////////////////////////////////////////////
+.hero__modal {
+  display: none;
+  right: 250px;
+  top: 50px;
+  width: 770px;
+  height: 455px;
+  background: #000;
+  position: absolute;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.hero__iframe {
+  position: absolute;
+}
+
+.hero__modal__btn {
+  color: aliceblue;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin-left: -5px;
+  margin-top: -50px;
+}
+
+.modal_block {
+  display: block;
+}
+
+.modal_text {
+  display: none;
+  width: 200px;
+  position: absolute;
+  top: 83%;
+  color: #fff;
+  text-align: center;
+  background: #8f8888;
+  border-radius: 10px;
+}
+
+.get__btn {
+  margin-left: -170px;
+}
+
+.modal_texts {
+  display: block;
+}

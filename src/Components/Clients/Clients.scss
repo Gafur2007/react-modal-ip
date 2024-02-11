@@ -1,0 +1,21 @@
+.clients .container {
+  margin-top: 109px;
+  text-align: center;
+}
+
+.clients__text {
+  margin: 0;
+  padding: 0;
+  color: rgb(61, 61, 63);
+  font-family: 'Mulish';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-bottom: 50px;
+}
+
+.our__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
